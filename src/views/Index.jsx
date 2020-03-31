@@ -34,6 +34,7 @@ import NucleoIcons from "views/IndexSections/NucleoIcons.jsx";
 import Signup from "views/IndexSections/Signup.jsx";
 import Examples from "views/IndexSections/Examples.jsx";
 import Download from "views/IndexSections/Download.jsx";
+import QAndA from "views/IndexSections/QAndA.jsx";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -49,6 +50,7 @@ class Index extends React.Component {
         <div className="wrapper">
           <PageHeader />
           <div className="main">
+            <QAndA />
             <Basics />
             <Navbars />
             <Tabs />
