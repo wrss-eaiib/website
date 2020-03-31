@@ -1,0 +1,23 @@
+const data = [
+    {
+        id: 0,
+        question: "dalczego?",
+        answer: "bo tak"
+    },
+    {
+        id: 1,
+        question: "KTO?",
+        answer: "JA"
+    },
+    {
+        id: 2,
+        question: "draft",
+        answer: "aaaaaaaaaaaaaaaa"
+    },
+    {
+        id: 3,
+        question: "live",
+        answer: "aaaaaaaaaaaaaaaa"
+    }
+];
+export default data;
